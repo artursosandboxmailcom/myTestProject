@@ -11,6 +11,7 @@ namespace MyFirstProject
             var date = DateTime.Now;
             Console.WriteLine($"\nHello, {name}, on {date:d} at {date:t}!");
             Console.Write("\nPress any key to exit...");
+            Console.WriteLine("Here is the code change from the new branch!");
             Console.ReadKey(true);
         }
     }
